@@ -59,7 +59,8 @@ export default function Navigation() {
               </button>
               <Button 
                 onClick={() => scrollToSection('contact')}
-                className="!bg-coral !text-white px-6 py-3 rounded-full font-semibold hover:!bg-coral/90 transition-all duration-200 shadow-lg"
+                style={{ backgroundColor: '#FF7F50', color: 'white' }}
+                className="px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-all duration-200 shadow-lg"
               >
                 Contact for Wholesale
               </Button>
@@ -109,7 +110,8 @@ export default function Navigation() {
               </button>
               <Button 
                 onClick={() => scrollToSection('contact')}
-                className="!bg-coral !text-white mx-4 rounded-full font-semibold hover:!bg-coral/90 transition-all duration-200"
+                style={{ backgroundColor: '#FF7F50', color: 'white' }}
+                className="mx-4 rounded-full font-semibold hover:opacity-90 transition-all duration-200"
               >
                 Contact for Wholesale
               </Button>

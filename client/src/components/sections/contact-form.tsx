@@ -169,7 +169,8 @@ export default function ContactForm() {
               <Button
                 type="submit"
                 disabled={submitInquiry.isPending}
-                className="!bg-coral !text-white px-10 py-4 rounded-full font-semibold hover:!bg-coral/90 transition-all duration-200 shadow-xl text-lg h-auto"
+                style={{ backgroundColor: '#FF7F50', color: 'white' }}
+                className="px-10 py-4 rounded-full font-semibold hover:opacity-90 transition-all duration-200 shadow-xl text-lg h-auto"
               >
                 <Send className="mr-2 h-5 w-5" />
                 {submitInquiry.isPending ? "Sending..." : "Send Wholesale Inquiry"}
