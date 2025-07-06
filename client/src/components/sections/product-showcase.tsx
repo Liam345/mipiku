@@ -6,7 +6,7 @@ export default function ProductShowcase() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-bold text-4xl lg:text-5xl text-gray-800 mb-6">
-            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal to-olive">Collection</span>
+            Our <span className="text-teal">Collection</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Discover our carefully curated range of plush toys and gift sets, designed to delight children and trusted by wholesale partners worldwide.

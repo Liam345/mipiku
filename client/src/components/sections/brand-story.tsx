@@ -6,7 +6,7 @@ export default function BrandStory() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-bold text-4xl lg:text-5xl text-gray-800 mb-6">
-            Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral to-lavender">Story</span>
+            Our <span className="text-coral">Story</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Born from a passion for creating joy, Mi Piku combines premium quality with playful design to bring smiles to children worldwide.

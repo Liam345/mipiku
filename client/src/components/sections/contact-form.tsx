@@ -78,7 +78,7 @@ export default function ContactForm() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-bold text-4xl lg:text-5xl text-gray-800 mb-6">
-            Start Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral to-teal">Partnership</span>
+            Start Your <span className="text-coral">Partnership</span>
           </h2>
           <p className="text-xl text-gray-600">
             Ready to bring Mi Piku to your customers? Let's discuss how we can grow together.
@@ -169,7 +169,7 @@ export default function ContactForm() {
               <Button
                 type="submit"
                 disabled={submitInquiry.isPending}
-                className="bg-gradient-to-r from-coral to-sunny text-white px-10 py-4 rounded-full font-semibold hover:scale-105 transition-transform duration-200 shadow-xl text-lg h-auto"
+                className="bg-coral text-white px-10 py-4 rounded-full font-semibold hover:bg-coral/90 transition-all duration-200 shadow-xl text-lg h-auto"
               >
                 <Send className="mr-2 h-5 w-5" />
                 {submitInquiry.isPending ? "Sending..." : "Send Wholesale Inquiry"}

@@ -86,28 +86,7 @@ export default function Wholesale() {
             />
           </div>
         </div>
-        
-        {/* Wholesale Stats */}
-        <div className="bg-gradient-to-r from-mint/10 via-lavender/10 to-sunny/10 rounded-4xl p-8">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="font-bold text-4xl text-coral mb-2">500+</div>
-              <div className="text-gray-600 font-medium">Retail Partners</div>
-            </div>
-            <div>
-              <div className="font-bold text-4xl text-teal mb-2">50M+</div>
-              <div className="text-gray-600 font-medium">Happy Children</div>
-            </div>
-            <div>
-              <div className="font-bold text-4xl text-lavender mb-2">25+</div>
-              <div className="text-gray-600 font-medium">Countries Served</div>
-            </div>
-            <div>
-              <div className="font-bold text-4xl text-olive mb-2">99%</div>
-              <div className="text-gray-600 font-medium">Partner Satisfaction</div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

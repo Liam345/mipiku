@@ -22,8 +22,8 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="font-bold text-5xl lg:text-7xl text-gray-800 mb-6 leading-tight">
-              Where <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral via-lavender to-teal">Softness</span> 
-              {" "}Meets <span className="text-transparent bg-clip-text bg-gradient-to-r from-olive via-sunny to-coral">Joy</span>
+              Where <span className="text-coral">Softness</span> 
+              {" "}Meets <span className="text-teal">Joy</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Premium plush toys and curated gift boxes designed to create magical moments for little ones. 
@@ -32,7 +32,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
                 onClick={() => scrollToSection('wholesale')}
-                className="bg-gradient-to-r from-coral to-sunny text-white px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform duration-200 shadow-xl text-lg h-auto"
+                className="bg-coral text-white px-8 py-4 rounded-full font-semibold hover:bg-coral/90 transition-all duration-200 shadow-xl text-lg h-auto"
               >
                 <Handshake className="mr-2 h-5 w-5" />
                 Start Wholesale Partnership
