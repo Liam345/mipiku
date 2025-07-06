@@ -32,7 +32,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
                 onClick={() => scrollToSection('wholesale')}
-                className="bg-coral text-white px-8 py-4 rounded-full font-semibold hover:bg-coral/90 transition-all duration-200 shadow-xl text-lg h-auto"
+                className="!bg-coral !text-white px-8 py-4 rounded-full font-semibold hover:!bg-coral/90 transition-all duration-200 shadow-xl text-lg h-auto"
               >
                 <Handshake className="mr-2 h-5 w-5" />
                 Start Wholesale Partnership
