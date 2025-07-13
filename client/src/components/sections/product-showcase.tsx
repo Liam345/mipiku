@@ -23,25 +23,25 @@ export default function ProductShowcase() {
             <div className="grid grid-cols-2 gap-4 mb-6">
               {/* Cute plush teddy bears */}
               <img 
-                src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
+                src="/toys/dog.jpeg" 
                 alt="Plush teddy bear with bowtie" 
                 className="rounded-3xl shadow-md w-full h-32 object-cover hover:scale-105 transition-transform duration-300" 
               />
               
               <img 
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
+                src="/toys/zebra.jpeg" 
                 alt="Stuffed animal family" 
                 className="rounded-3xl shadow-md w-full h-32 object-cover hover:scale-105 transition-transform duration-300" 
               />
               
               <img 
-                src="https://images.unsplash.com/photo-1564594985645-4427056e22e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
+                src="/toys/narwhal.jpeg" 
                 alt="Plush unicorn toy" 
                 className="rounded-3xl shadow-md w-full h-32 object-cover hover:scale-105 transition-transform duration-300" 
               />
               
               <img 
-                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
+                src="/toys/seal.jpeg" 
                 alt="Colorful plush toy collection" 
                 className="rounded-3xl shadow-md w-full h-32 object-cover hover:scale-105 transition-transform duration-300" 
               />
@@ -74,25 +74,25 @@ export default function ProductShowcase() {
             <div className="grid grid-cols-2 gap-4 mb-6">
               {/* Baby gift boxes packaging */}
               <img 
-                src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
+                src="/toys/sheep.jpeg" 
                 alt="Baby gift box with satin ribbon" 
                 className="rounded-3xl shadow-md w-full h-32 object-cover hover:scale-105 transition-transform duration-300" 
               />
               
               <img 
-                src="https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+                src="/toys/owl.jpeg" 
                 alt="Pastel gift packaging" 
                 className="rounded-3xl shadow-md w-full h-32 object-cover hover:scale-105 transition-transform duration-300" 
               />
               
               <img 
-                src="https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
+                src="/toys/otter.jpeg" 
                 alt="Premium gift box set" 
                 className="rounded-3xl shadow-md w-full h-32 object-cover hover:scale-105 transition-transform duration-300" 
               />
               
               <img 
-                src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
+                src="/toys/penguin.jpeg" 
                 alt="Curated baby gift collection" 
                 className="rounded-3xl shadow-md w-full h-32 object-cover hover:scale-105 transition-transform duration-300" 
               />

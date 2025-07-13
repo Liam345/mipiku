@@ -53,29 +53,29 @@ export default function Hero() {
             {/* Hero image collage */}
             <div className="grid grid-cols-2 gap-4">
               {/* Stock photos - cute plush teddy bears */}
-              <img 
-                src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+              <img
+                src="/toys/dog.jpeg"
                 alt="Cute plush teddy bear" 
                 className="rounded-4xl shadow-2xl w-full h-48 object-cover transform rotate-3 hover:rotate-0 transition-transform duration-300" 
               />
               
               {/* Baby gift boxes packaging */}
-              <img 
-                src="https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+              <img
+                src="/toys/narwhal.jpeg"
                 alt="Baby gift box packaging" 
                 className="rounded-4xl shadow-2xl w-full h-48 object-cover transform -rotate-2 hover:rotate-0 transition-transform duration-300 mt-8" 
               />
               
               {/* Happy babies with toys */}
               <img 
-                src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+                src="/toys/penguin.jpeg" 
                 alt="Happy baby with toys" 
                 className="rounded-4xl shadow-2xl w-full h-48 object-cover transform rotate-1 hover:rotate-0 transition-transform duration-300 -mt-4" 
               />
               
               {/* Soft plush animals arranged beautifully */}
               <img 
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+                src="/toys/turtle.jpeg" 
                 alt="Plush toy collection" 
                 className="rounded-4xl shadow-2xl w-full h-48 object-cover transform -rotate-1 hover:rotate-0 transition-transform duration-300 mt-4" 
               />

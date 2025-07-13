@@ -62,25 +62,25 @@ export default function Wholesale() {
           <div className="grid grid-cols-2 gap-4">
             {/* Wholesale trade fair display */}
             <img 
-              src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
+              src="/other/6.jpeg" 
               alt="Trade fair display booth" 
               className="rounded-4xl shadow-lg w-full h-48 object-cover" 
             />
             
             <img 
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
+              src="/other/5.jpeg" 
               alt="Professional product presentation" 
               className="rounded-4xl shadow-lg w-full h-48 object-cover mt-8" 
             />
             
             <img 
-              src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
+              src="/other/4.jpeg" 
               alt="Wholesale packaging logistics" 
               className="rounded-4xl shadow-lg w-full h-48 object-cover -mt-4" 
             />
             
             <img 
-              src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
+              src="/other/3.jpeg" 
               alt="Business partnership" 
               className="rounded-4xl shadow-lg w-full h-48 object-cover mt-4" 
             />
