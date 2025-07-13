@@ -145,7 +145,7 @@ export default function ContactForm() {
                   value={formData.phone}
                   onChange={(e) => handleInputChange("phone", e.target.value)}
                   className="w-full px-4 py-3 border-2 border-gray-200 rounded-2xl focus:border-coral focus:outline-none transition-colors duration-200"
-                  placeholder="+1 (555) 123-4567"
+                  placeholder="+61 0451 123 456"
                 />
               </div>
             </div>

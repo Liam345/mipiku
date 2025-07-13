@@ -26,7 +26,12 @@ export default function Footer() {
               Where softness meets joy, and dreams come to life.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-coral rounded-full flex items-center justify-center hover:bg-coral/80 transition-colors duration-300">
+              <a
+                href="https://www.instagram.com/mipikukids/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-coral rounded-full flex items-center justify-center hover:bg-coral/80 transition-colors duration-300"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="w-10 h-10 bg-mint rounded-full flex items-center justify-center hover:bg-mint/80 transition-colors duration-300">
@@ -87,7 +92,7 @@ export default function Footer() {
             </ul>
           </div>
           
-          <div>
+          {/* <div>
             <h4 className="font-bold text-lg mb-6">Contact Info</h4>
             <ul className="space-y-3">
               <li className="flex items-center">
@@ -107,7 +112,7 @@ export default function Footer() {
                 <span className="text-gray-300">Mon-Fri: 9AM-6PM EST</span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         
         <hr className="border-gray-700 my-8" />
@@ -116,11 +121,11 @@ export default function Footer() {
           <p className="text-gray-400 text-sm">
             © 2024 Mi Piku. All rights reserved. Bringing joy to children worldwide.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          {/* <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-coral transition-colors duration-300 text-sm">Privacy Policy</a>
             <a href="#" className="text-gray-400 hover:text-coral transition-colors duration-300 text-sm">Terms of Service</a>
             <a href="#" className="text-gray-400 hover:text-coral transition-colors duration-300 text-sm">Wholesale Terms</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
